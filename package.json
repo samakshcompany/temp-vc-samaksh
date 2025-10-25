@@ -1,0 +1,32 @@
+{
+  "name": "vc-panel",
+  "version": "1.0.0",
+  "description": "A Discord bot for creating and managing temporary voice channels",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/deploy-commands.js && node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "voice",
+    "channels",
+    "temporary"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
